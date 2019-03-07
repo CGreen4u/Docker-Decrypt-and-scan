@@ -4,19 +4,6 @@ Created on Fri Feb  8 12:57:19 2019
 
 @author: Christopher Green
 """
-
-import decryptfiles
-import scanner-sophos
-import new-sophos
-sophos.runSophos()
-import scanner-fprot
-import Fprot
-Fprot.runFprot()
-import  Elasticsearch_PG
-
-
-print("Done")
-
 import psycopg2
 import sys
 import os
